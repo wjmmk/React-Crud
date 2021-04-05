@@ -8,7 +8,7 @@ Run `yarn start` for a dev server. Navigate to `http://localhost:3000`. The app 
 
 ## Carga de Imagen de las Pruebas de Codigo
 
-![](React-Crud/public/React3.jpg)
+![](public/React3.jpg)
 
 # Getting Started with Create React App
 

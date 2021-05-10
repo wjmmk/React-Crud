@@ -1,7 +1,7 @@
 import React from 'react';
  import { Formik } from 'formik';
  
- const BasicExample = () => (
+ const Formiktest = () => (
    <div>
    <br></br><hr></hr>
    <h1>Esta es una Prueba realizada con la Biblioteca FORMIK !!!</h1> 
@@ -31,4 +31,4 @@ import React from 'react';
      </Formik>
    </div>
  );
- export default BasicExample;
+ export default Formiktest;

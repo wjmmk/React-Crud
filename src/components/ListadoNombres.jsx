@@ -55,7 +55,7 @@ const ListadoNombres = () => {
           <h2>Listado de Nombres</h2>
           <ul className="list-group">
             {listanombre.map((item) => (
-              <li key="{item.id}" className="list-group-item">
+              <li key={item.id} className="list-group-item">
                 <b> {item.name} </b>
                 <button
                   className="btn btn-danger btn-sm float-right"

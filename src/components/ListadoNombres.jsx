@@ -44,6 +44,7 @@ const ListadoNombres = () => {
       setListanombre(NuevoArray)
       setModoEdicion(false)
       setNombre('')
+      e.target.reset();
   }
 
   return (
@@ -59,19 +60,12 @@ const ListadoNombres = () => {
                 <b> {item.name} </b>
                 <button
                   className="btn btn-danger btn-sm float-right"
-                  onClick={() => {
-                    deleteName(item.id);
-                  }}
-                >
-                  Borrar
-                </button>
+                  onClick={() => { deleteName(item.id); }}
+                > Borrar </button>
                 <button
                   className="btn btn-dark btn-sm float-right"
-                  onClick={() => { editar(item);
-                  }}
-                >
-                  Editar
-                </button>
+                  onClick={() => { editar(item); }}
+                > Editar </button>
               </li>
             ))}
           </ul>
@@ -86,6 +80,7 @@ const ListadoNombres = () => {
               onChange={(e) => {
                 setNombre(e.target.value);
               }}
+              onFocus={(e) => {}}
             ></input>
 
             <input
